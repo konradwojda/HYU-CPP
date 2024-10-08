@@ -72,7 +72,7 @@ Z, z : 0
 
 ### Code
 
-Extended version is shown below. I used `std::max` function from `algorithm` header to get a number of occurrences of a letter with maximum number of occurrences. Then I did two nested loops, first one iterates from maximum number of occurrences to 0 and the second one iterates over all letters. If number of occurrences of that letter is bigger than current count of outer loop, I print `*`. 
+Extended version is shown below. I used `std::max_element` function from `algorithm` header to get a number of occurrences of a letter with maximum number of occurrences. Then I did two nested loops, first one iterates from maximum number of occurrences to 0 and the second one iterates over all letters. If number of occurrences of that letter is bigger than current count of outer loop, I print `*`. 
 
 ```cpp
 #include <iostream>
